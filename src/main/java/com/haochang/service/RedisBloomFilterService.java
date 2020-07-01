@@ -8,13 +8,13 @@ import org.springframework.stereotype.Service;
 
 /**
  * @ClassName: RedisService
- * @Description redis服务service
+ * @Description redis 谷歌布隆过滤器服务service
  * @Author: youzhi.gao
  * @Date: 2020-06-30 18:12
  * @Version 1.0.0
  */
 @Service
-public class RedisService{
+public class RedisBloomFilterService{
 
     @Autowired
     private RedisTemplate redisTemplate;
